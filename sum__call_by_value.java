@@ -7,7 +7,8 @@ public class sum__call_by_value {
          int a =10;
          int b=50;
       int sum=   calculatesum(a, b);
-      System.out.println("sum is: "+sum);
+      System.out.println("sum is :" +sum);
 
+      
     }
 }
