@@ -12,6 +12,7 @@ public class right_rotation_of_array {
         }
     }
 
+    
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the size of array");
@@ -32,5 +33,6 @@ public class right_rotation_of_array {
           for(int i=0;i<n;i++){
             System.out.println(arr[i] +" ");
           }  
+          
     }
 }

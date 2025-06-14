@@ -10,6 +10,7 @@ class remove_elements {
             }
         }
         return j+1;
+
     }
     
     
@@ -28,6 +29,8 @@ class remove_elements {
 
         for(int i=0;i<newLength;i++){
             System.out.println(nums[i] +"");
+            
+
         }
 
     }
