@@ -12,6 +12,9 @@ public class kth_max_element {
         System.out.println("enter the elements of array");
         for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
+            
+
+
         }
 
         for(int i=0;i<arr.length-1;i++){
@@ -20,6 +23,8 @@ public class kth_max_element {
                     int temp=arr[i];
                     arr[j]=arr[i];
                     arr[j]=temp;
+                    
+                    
                 }
             }
             if (i==k-1) {
